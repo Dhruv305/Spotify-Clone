@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./assets/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Spotify - Web Player: Music for everyone</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="options">
+            <div class="lib-option">
+              <img src="./assets/library_icon.png" alt="Library icon" />
+              <a href="#">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="choose">
+            <p>Playlists</p>
+            <p>Artists</p>
+          </div>
+
+          <div class="boxes">
+            <div class="sort-by">
+              <i class="fa-solid fa-magnifying-glass recent-search"></i>
+              <div class="recents">
+                <p>Recents</p>
+                <i class="fa-solid fa-sort-down"></i>
+              </div>
+            </div>
+            <!-- Liked Playlist -->
+            <div class="card">
+              <img src="./assets/likedimg.png" alt="liked" />
+              <div class="box-name">
+                <div class="para green">Liked Songs</div>
+                <div class="details">
+                  <i class="fa-solid fa-thumbtack pin green"></i>
+                  <p>Playlist</p>
+                  <i class="fa-solid fa-circle dot"></i>
+                  <p>160 songs</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Play list 1 -->
+            <div class="card">
+              <img src="./assets/playlist1img.jpeg" alt="playlist 1" />
+              <div class="box-name">
+                <div class="para">Mega Hit Mix</div>
+                <div class="details">
+                  <p>Playlist</p>
+                  <i class="fa-solid fa-circle dot"></i>
+                  <p>Spotify</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Play List 2 -->
+            <div class="card">
+              <img src="./assets/playlist2img.jpeg" alt="playlist 1" />
+              <div class="box-name">
+                <div class="para">Anime</div>
+                <div class="details">
+                  <p>Playlist</p>
+                  <i class="fa-solid fa-circle dot"></i>
+                  <p>Spotify</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Play List 3 -->
+            <div class="card">
+              <img src="./assets/playlist3img.jpeg" alt="playlist 1" />
+              <div class="box-name">
+                <div class="para">Hoyeon jung</div>
+                <div class="details">
+                  <p>Playlist</p>
+                  <i class="fa-solid fa-circle dot"></i>
+                  <p>Brian Ly</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Play List 4 -->
+            <div class="card">
+              <img src="./assets/playlist4img.jpeg" alt="playlist 1" />
+              <div class="box-name">
+                <div class="para">Songs That made Us Smile</div>
+                <div class="details">
+                  <p>Playlist</p>
+                  <i class="fa-solid fa-circle dot"></i>
+                  <p>Spotify</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Play List 5 -->
+            <div class="card">
+              <img src="./assets/playlist5img.jpeg" alt="playlist 1" />
+              <div class="box-name">
+                <div class="para">Anime Hits</div>
+                <div class="details">
+                  <p>Playlist</p>
+                  <i class="fa-solid fa-circle dot"></i>
+                  <p>Spotify</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Play List 6 -->
+            <div class="card">
+              <img src="./assets/playlist6img.jpeg" alt="playlist 1" />
+              <div class="box-name">
+                <div class="para">Daily Lift</div>
+                <div class="details">
+                  <p>Playlist</p>
+                  <i class="fa-solid fa-circle dot"></i>
+                  <p>Spotify</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Play List 7 -->
+            <div class="card">
+              <img src="./assets/playlist7img.jpeg" alt="playlist 1" />
+              <div class="box-name">
+                <div class="para">BoyWithUke Radio</div>
+                <div class="details">
+                  <p>Playlist</p>
+                  <i class="fa-solid fa-circle dot"></i>
+                  <p>Spotify</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Play List 8 -->
+            <div class="card">
+              <img src="./assets/playlist8img.jpeg" alt="playlist 1" />
+              <div class="box-name">
+                <div class="para">Chill Mix</div>
+                <div class="details">
+                  <p>Playlist</p>
+                  <i class="fa-solid fa-circle dot"></i>
+                  <p>Spotify</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Play List 9 -->
+            <div class="card">
+              <img src="./assets/playlist9img.jpeg" alt="playlist 1" />
+              <div class="box-name">
+                <div class="para">Ultimate op Gaming</div>
+                <div class="details">
+                  <p>Playlist</p>
+                  <i class="fa-solid fa-circle dot"></i>
+                  <p>Spotify</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Play List 10 -->
+            <div class="card">
+              <img src="./assets/playlist10img.jpeg" alt="playlist 1" />
+              <div class="box-name">
+                <div class="para">Relaxing music</div>
+                <div class="details">
+                  <p>Playlist</p>
+                  <i class="fa-solid fa-circle dot"></i>
+                  <p>Spotify</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Play List 11 -->
+            <div class="card">
+              <img src="./assets/playlist11img.jpeg" alt="playlist 1" />
+              <div class="box-name">
+                <div class="para">I Ain't Worried About It</div>
+                <div class="details">
+                  <p>Playlist</p>
+                  <i class="fa-solid fa-circle dot"></i>
+                  <p>Spotify</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Play List 12 -->
+            <div class="card last">
+              <img src="./assets/playlist12img.jpeg" alt="playlist 1" />
+              <div class="box-name">
+                <div class="para">OG</div>
+                <div class="details">
+                  <p>Playlist</p>
+                  <i class="fa-solid fa-circle dot"></i>
+                  <p>Spotify</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="fb-icons">
+            <img src="./assets/backward_icon.png" alt="backward_icon" />
+            <img
+              class="backward_icon hide"
+              src="./assets/forward_icon.png"
+              alt="forward_icon"
+            />
+          </div>
+
+          <div class="explore">
+            <button class="badge hide">Explore Premium</button>
+            <button class="badge install">
+              <i class="fa-regular fa-circle-down"></i>Install App
+            </button>
+            <i class="fa-regular fa-user user_icon"></i>
+          </div>
+        </div>
+        <div class="main-posters">
+          <!-- Poster Container 1 -->
+          <div class="container-heading">
+            <h2>Recently played</h2>
+            <p>Show all</p>
+          </div>
+
+          <div class="poster-container">
+            <!-- poster 1 -->
+            <div class="poster">
+              <img src="./assets/likedimg.png" alt="" />
+              <p class="poster-title">Liked Songs</p>
+              <p class="poster-info">103 songs</p>
+            </div>
+
+            <!-- poster 2 -->
+            <div class="poster">
+              <img src="./assets/playlist2img.jpeg" alt="" />
+              <p class="poster-title">Anime</p>
+              <p class="poster-info">by LEGEND</p>
+            </div>
+
+            <!-- poster 3 -->
+            <div class="poster hide867">
+              <img src="./assets/poster1img.jpg" alt="" />
+              <p class="poster-title">Mission ISRO with...</p>
+              <p class="poster-info">Spotify Studios</p>
+            </div>
+
+            <!-- poster 4 -->
+            <div class="poster hide1310 hide867">
+              <img src="./assets/poster2img.jpg" alt="" />
+              <p class="poster-title">Understand Radio</p>
+              <p class="poster-info">By Spotify</p>
+            </div>
+
+            <!-- poster 5 -->
+            <div class="poster hide1530 hide867">
+              <img src="./assets/playlist5img.jpeg" alt="" />
+              <p class="poster-title">Anime Hits</p>
+              <p class="poster-info">Spotify</p>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------------------- -->
+
+          <!-- Poster container 2 -->
+          <div class="container-heading">
+            <h2>Your top mixes</h2>
+            <p>Show all</p>
+          </div>
+
+          <div class="poster-container">
+            <!-- poster 1 -->
+            <div class="poster">
+              <img src="./assets/mix1img.jpg" alt="" />
+              <p class="poster-title">Chill Mix</p>
+              <p class="poster-info">vaultboy, Stellar, TheFatRat and more</p>
+            </div>
+
+            <!-- poster 2 -->
+            <div class="poster">
+              <img src="./assets/mix2img.jpg" alt="" />
+              <p class="poster-title">Happy Mix</p>
+              <p class="poster-info">
+                Avicii, Jonas Blue, Shawn Mendes and more
+              </p>
+            </div>
+
+            <!-- poster 3 -->
+            <div class="poster hide867">
+              <img src="./assets/mix3img.jpg" alt="" />
+              <p class="poster-title">Charlie Puth Mix</p>
+              <p class="poster-info">Ed Sheeran, Maroon 5 and OneRepublic</p>
+            </div>
+
+            <!-- poster 4 -->
+            <div class="poster hide1310 hide867">
+              <img src="./assets/mix4img.jpg" alt="" />
+              <p class="poster-title">J-Pop Mix</p>
+              <p class="poster-info">
+                The RAMPAGE from EXILE TRIBE,Aimer,Fujii Kaze...
+              </p>
+            </div>
+
+            <!-- poster 5 -->
+            <div class="poster hide1530 hide867">
+              <img src="./assets/mix5img.jpg" alt="" />
+              <p class="poster-title">OneRepublic Mix</p>
+              <p class="poster-info">
+                Avicii, Shawn Mendes and The Chainsmokers
+              </p>
+            </div>
+            <!-- ----------------------------------------------------------------------------- -->
+
+            <!-- Poster container 3 -->
+            <div class="container-heading">
+              <h2>Today's biggest hits</h2>
+              <p>Show all</p>
+            </div>
+
+            <div class="poster-container">
+              <!-- poster 1 -->
+              <div class="poster">
+                <img src="./assets/hits1img.jpg" alt="" />
+                <p class="poster-title">Mega Hit Mix</p>
+                <p class="poster-info">
+                  A mega mix of 75 favorites from last few years!
+                </p>
+              </div>
+
+              <!-- poster 2 -->
+              <div class="poster">
+                <img src="./assets/hits2img.jpg" alt="" />
+                <p class="poster-title">Today's Top Hits</p>
+                <p class="poster-info">
+                  Nicki Minaj & Ice Spice are on top of the hottest 50!
+                </p>
+              </div>
+
+              <!-- poster 3 -->
+              <div class="poster hide867">
+                <img src="./assets/hits3img.jpg" alt="" />
+                <p class="poster-title">Hot Hits India</p>
+                <p class="poster-info">The hottest tracks in India.</p>
+              </div>
+
+              <!-- poster 4 -->
+              <div class="poster hide1310 hide867">
+                <img src="./assets/hits4img.jpg" alt="" />
+                <p class="poster-title">Bollywood Butter</p>
+                <p class="poster-info">
+                  B bole tog biggest blockbuster, right here!
+                </p>
+              </div>
+
+              <!-- poster 5 -->
+              <div class="poster hide1530 hide867">
+                <img src="./assets/hits5img.jpg" alt="" />
+                <p class="poster-title">Hot Hits Hindi</p>
+                <p class="poster-info">Hottest hindi music served here.</p>
+              </div>
+            </div>
+            <!-- -------------------------------------------------------------------------- -->
+
+            <!-- Poster container 4 -->
+            <div class="container-heading">
+              <h2>Spotify Original & exclusive shows</h2>
+              <p>Show all</p>
+            </div>
+
+            <div class="poster-container">
+              <!-- poster 1 -->
+              <div class="poster">
+                <img src="./assets/exe1img.jpg" alt="" />
+                <p class="poster-title">True Story Bro! with T...</p>
+                <p class="poster-info">Spotify</p>
+              </div>
+
+              <!-- poster 2 -->
+              <div class="poster">
+                <img src="./assets/exe2img.jpg" alt="" />
+                <p class="poster-title">The MythPat Podcast</p>
+                <p class="poster-info">Spotify Studios</p>
+              </div>
+
+              <!-- poster 3 -->
+              <div class="poster hide867">
+                <img src="./assets/exe3img.jpg" alt="" />
+                <p class="poster-title">The Ranveer Show</p>
+                <p class="poster-info">BeerBiceps</p>
+              </div>
+
+              <!-- poster 4 -->
+              <div class="poster hide1310 hide867">
+                <img src="./assets/exe4img.jpg" alt="" />
+                <p class="poster-title">Death, Lies & Cyanid...</p>
+                <p class="poster-info">Spotify Studios</p>
+              </div>
+
+              <!-- poster 5 -->
+              <div class="poster hide1530 hide867">
+                <img src="./assets/poster1img.jpg" alt="" />
+                <p class="poster-title">Mission Isro With H...</p>
+                <p class="poster-info">Spotify Studios</p>
+              </div>
+            </div>
+            <!-- -------------------------------------------------------------------------- -->
+
+            <!-- Poster container 5 -->
+            <div class="container-heading">
+              <h2>Recommended Radio</h2>
+              <p>Show all</p>
+            </div>
+
+            <div class="poster-container">
+              <!-- poster 1 -->
+              <div class="poster">
+                <img src="./assets/recommended1img.jpg" alt="" />
+                <p class="poster-title">Justin Bieber Radio</p>
+                <p class="poster-info">By Spotify</p>
+              </div>
+
+              <!-- poster 2 -->
+              <div class="poster">
+                <img src="./assets/recommended2img.jpg" alt="" />
+                <p class="poster-title">The Kid Laroi Radio</p>
+                <p class="poster-info">By Spotify</p>
+              </div>
+
+              <!-- poster 3 -->
+              <div class="poster hide867">
+                <img src="./assets/recommended3img.jpg" alt="" />
+                <p class="poster-title">Why Don't We Radio</p>
+                <p class="poster-info">By Spotify</p>
+              </div>
+
+              <!-- poster 4 -->
+              <div class="poster hide1310 hide867">
+                <img src="./assets/recommended4img.jpg" alt="" />
+                <p class="poster-title">Alan Walker Radio</p>
+                <p class="poster-info">By Spotify</p>
+              </div>
+
+              <!-- poster 5 -->
+              <div class="poster hide1530 hide867">
+                <img src="./assets/recommended5img.jpg" alt="" />
+                <p class="poster-title">Marshmello Radio</p>
+                <p class="poster-info">By Spotify</p>
+              </div>
+            </div>
+            <!-- -------------------------------------------------------------------------- -->
+
+            <div class="main-nav-bar">
+              <div class="nav-info">
+                <div class="col-1">
+                  <div class="first-line">Company</div>
+                  <p>About</p>
+                  <p>Jobs</p>
+                  <p>For the Record</p>
+                </div>
+                <div class="col-2">
+                  <div class="first-line">Communities</div>
+                  <p>For Artists</p>
+                  <p>Developers</p>
+                  <p>Advertising</p>
+                  <p>Investors</p>
+                  <p>Vendors</p>
+                </div>
+                <div class="col-3">
+                  <div class="first-line">Useful links</div>
+                  <p>Support</p>
+                  <p>Free Mobile App</p>
+                </div>
+                <div></div>
+                <div class="nav-social">
+                  <div class="social-network"><i class="fa-brands fa-instagram"></i></div>
+                  <div class="social-network"><i class="fa-brands fa-twitter"></i></div>
+                  <div class="social-network"><i class="fa-brands fa-facebook"></i></div>
+                </div>
+              </div>
+              <div class="nav-links">
+                <div class="bottom-links">
+                  <div class="footer-link">Legal</div>
+                  <div class="footer-link">Privacy Center</div>
+                  <div class="footer-link">Privacy Policy</div>
+                  <div class="footer-link">Cookies</div>
+                  <div class="footer-link">About Ads</div>
+                  <div class="footer-link">Accessibility</div>
+                </div>
+                <div class="copy-right">
+                  <i class="fa-regular fa-copyright"></i>
+                  2023 Spotify AB
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="music-player">
+        <div class="album">
+          <img src="./assets/player_barimg.jpg" alt="" class="album-bar-img">
+          <div class="album-info">
+            <p style="font-size: 14px; opacity: 1; font-weight: 550;">rocket science</p>
+            <p style="font-size: 11px; ;">vaultboy</p>
+          </div>
+          <img src="./assets/album_icon1.png" alt="" class="right-icon album_icon1">
+          <img src="./assets/album_icon2.png" alt="" class="right-icon album_icon2">
+        </div>
+        <div class="player">
+          <div class="palyer-control">
+            <img src="./assets/player_icon1.png" class="player-control-icon" alt="">
+            <img src="./assets/player_icon2.png" class="player-control-icon" alt="">
+            <img src="./assets/player_icon3.png" class="player-control-icon player-play-icon" alt="">
+            <img src="./assets/player_icon4.png" class="player-control-icon" alt="">
+            <img src="./assets/player_icon5.png" class="player-control-icon" alt="">
+          </div>
+          <div class="playback-bar">
+            <span class="current-time">0:00</span>
+            <input type="range" min="0" max="100" class="progress-bar" value="0">
+            <span class="total-time">2:01</span>
+          </div>
+        </div>
+        <div class="controls">
+          <img src="./assets/controld_icon2.png" class="control-icon-2">
+          <img src="./assets/controls_icon3.png" class="control-icon-3">
+          <img src="./assets/controls_icon4.png" class="control-icon-4">
+          <img src="./assets/controls_icon5.png" class="control-icon-5">
+          <input type="range" min="0" max="100" value="0" class="volume-bar">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
